@@ -1,8 +1,8 @@
 const AV = require('leancloud-storage')
 const wilddog = require('wilddog')
 
-var APP_ID = 'Ir6SE0GwBzFxczMqXXVpCF8d-gzGzoHsz';
-var APP_KEY = 'SnlgtrRYvxJimSYDRw2GBr6H';
+var APP_ID = '';
+var APP_KEY = '';
 
 AV.init({
     appId: APP_ID,
@@ -10,7 +10,7 @@ AV.init({
 });
 
 var config = {
-    syncURL: "https://ihoey.wilddogio.com" //输入节点 URL
+    syncURL: "https://appid.wilddogio.com" //输入节点 URL
 };
 wilddog.initializeApp(config);
 var ref = wilddog.sync().ref('comments');
