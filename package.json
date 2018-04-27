@@ -1,0 +1,16 @@
+{
+  "name": "fire2Hitalk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ihoey <mail@ihoey.com> (https://blog.ihoey.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "leancloud-storage": "^3.6.8",
+    "wilddog": "^2.5.17"
+  }
+}
